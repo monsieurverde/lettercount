@@ -1,10 +1,7 @@
 import string
-def lettercount():
-    
-    x = input("Enter a sentence: ")
+def lettercount(test):
 
-    y = x.lower()   # convert to all lowercase
-    sentence = y.split()
+    sentence = test.lower()   # convert to all lowercase
 
     alphabet = 'abcdefghijklmnopqrstuvwxyz'
 
@@ -24,7 +21,8 @@ def lettercount():
 
 def main():
 
-    lettercount()
+    test = "hello world"
+    lettercount(test)
 
 if __name__ == '__main__':
     main()
