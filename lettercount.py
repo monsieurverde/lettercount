@@ -1,4 +1,5 @@
 import string
+
 def lettercount(test):
 
     sentence = test.lower()   # convert to all lowercase
