@@ -2,13 +2,13 @@ import string
 
 def lettercount(test):
 
-    sentence = test.lower()   # convert to all lowercase
+    sentence = test.lower()
 
     alphabet = 'abcdefghijklmnopqrstuvwxyz'
 
-    letter_count = {} # empty dictionary
+    letter_count = {}
     for char in sentence:
-        if char in alphabet: # ignore any punctuation, numbers, etc
+        if char in alphabet:
             if char in letter_count:
                 letter_count[char] = letter_count[char] + 1
             else:
