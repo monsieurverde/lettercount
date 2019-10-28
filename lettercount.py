@@ -21,7 +21,7 @@ def lettercount(test):
     print(letter_count)
 
 def main():
-    
+
     test = "hello world"
     lettercount(test)
 
