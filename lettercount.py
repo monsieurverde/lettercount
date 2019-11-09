@@ -23,7 +23,6 @@ def lettercount(test):
 def main():
 
     test = "hello world"
-    test2 = "testing testing 123"
     lettercount(test)
 
 if __name__ == '__main__':
